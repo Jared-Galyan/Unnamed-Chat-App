@@ -2,7 +2,7 @@
   "name": "chat-app",
   "version": "1.0.0",
   "description": "Basic Chat Application",
-  "main": "index.js",
+  "main": "server.js",
   "scripts": {
     "devStart": "nodemon server.js"
   },
@@ -17,6 +17,7 @@
   },
   "homepage": "https://github.com/Jared-Galyan/Unnamed-Chat-App#readme",
   "dependencies": {
+    "express": "^4.17.1",
     "socket.io": "^3.0.3"
   },
   "devDependencies": {
