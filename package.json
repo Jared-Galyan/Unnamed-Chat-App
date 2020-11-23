@@ -1,0 +1,25 @@
+{
+  "name": "chat-app",
+  "version": "1.0.0",
+  "description": "Basic Chat Application",
+  "main": "index.js",
+  "scripts": {
+    "devStart": "nodemon server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Jared-Galyan/Unnamed-Chat-App.git"
+  },
+  "author": "Jared Galyan",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Jared-Galyan/Unnamed-Chat-App/issues"
+  },
+  "homepage": "https://github.com/Jared-Galyan/Unnamed-Chat-App#readme",
+  "dependencies": {
+    "socket.io": "^3.0.3"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.6"
+  }
+}
